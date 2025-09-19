@@ -1,0 +1,152 @@
+.contenedor-principal{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.contenedor-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* separa logo y menú */
+    gap: 50px;
+    background: rgb(139, 25, 25);
+    width: 100%;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.menu a {
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    color: black;
+}
+.logo{
+    padding:15px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+
+}
+.logo h1{
+    color: white;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    margin:15px;
+}
+.logo img {
+    border-radius:60px;
+    height: 80px; /* ajusta el tamaño del logo */
+    width: 80px;
+}
+/*Galeria*/
+.contenedor-2 {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            background: #fffbec;
+            padding:20px;
+        }
+.contenedor-2 h2{
+    text-align: center;
+    font-size: 30px;
+    color: #A51C30;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.galeria-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+.galeria-item {
+            display: grid;
+            grid-template-rows: auto auto; 
+            text-align: center;
+            justify-items: center; 
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            padding: 20px;
+            gap: 10px;
+            background: #A51C30;           
+        }
+.galeria-item:hover{
+    transform:translateY(-7px) translateX(-7px);
+    box-shadow: rgba(0, 0, 0, 0.725) 5px 5px 15px;
+}
+
+.imagen-galeria {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+
+        /*perfil*/
+.contenedor-3 {
+            width: 100%;        
+            padding: 30px;
+            background-color: #A51C30;
+            color: white;
+        }
+
+        .perfil-container {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 20px;
+            background-color: #8A1538;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        .perfil-container p{
+            font-size:16px;
+            line-height: 1.5;
+        }
+        .perfil-container h2{
+            font-size: 25px;
+            color: rgb(252, 220, 12);
+        }
+.foto-perfil{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+        .imagen-fundador {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid white;
+        }
+
+        .nombre-fundador h1 {
+            margin: 5px;
+            font-size: 30px;
+            color: white;
+        }
+
+        .fundacion-harvard {
+            margin:5px;
+            border: solid 2px white;
+            border-radius: 10px;
+            padding:10px;
+        }
+.info-extra {
+    margin-top: 20px;
+    }      
+
