@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clase java script</title>
+    <script src="Calculadora.js"></script>
+    <link rel="stylesheet" href="Calculadora.css">
+
+</head>
+<body>
+<div class="calculadora">
+    <h1>Calculadora</h1>
+    <div class="numeros">
+    <input type="text" id="num-1" placeholder="ingresa el primer numero">
+    <input type="text" id="num-2" placeholder="ingresa el segundo numero">
+    </div>
+<!-- Botones donde se llaman las funciones de operaciones matemáticas -->
+    <div class="botones">
+    <button onclick="suma()">+</button>
+    <button onclick="resta()">-</button>
+    <button onclick="multiplicacion()">x</button>
+    <button onclick="division()">/</button>
+    </div>
+<!-- Área para mostrar los resultados llamando a los resultados de las funciones en js -->
+<div class="respuestas">
+    <p>La suma es: </p>
+    <p id="s"> </p>
+    <p>La resta es: </p>
+    <p id="r"> </p>
+    <p>La multiplicación es: </p>
+    <p id="m"> </p>
+    <p>La división es: </p>
+    <p id="d"> </p>
+</div>
+</div>
+<!-- Sección de saludo personalizado (primera funcion trabajada en clase)-->
+    <div class="nombre">
+        <input type="text" id="Nombre" placeholder="tu nombre">
+        <button onclick="saludar()">Saludo!</button>
+    </div>
+
+</body>
+</html>
