@@ -1,0 +1,127 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #757575, #00020f);
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: white;
+    padding: 20px 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.logo img {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.logo-text h1 {
+    color: black;
+    font-size: 24px;
+    margin: 0 0 5px 0;
+}
+
+.logo-text p {
+    color: #666;
+    font-size: 14px;
+    margin: 0;
+}
+
+.contenedor-principal {
+    background: white;
+    padding: 40px;
+    max-width: 1100px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.registro {
+    flex: 1;
+    padding: 20px;
+}
+
+.registro h1 {
+    color: rgb(87, 87, 87);
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+#registroForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#registroForm input {
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    font-size: 16px;
+}
+
+#mostrar-r {
+    padding: 14px;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+#mostrar-r:hover {
+    background: #333;
+}
+
+.resultados {
+    flex: 1;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 450px;
+    margin-top: 20px;
+}
+
+.resultados h2 {
+    color: black;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    text-align: center;
+}
+
+.resultado-final {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.resultado-final p {
+    padding: 10px 15px;  
+    margin: 0;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#aprobado {
+    font-size: 18px;
+    color: black;
+    margin-top: 5px;
+    
+}
