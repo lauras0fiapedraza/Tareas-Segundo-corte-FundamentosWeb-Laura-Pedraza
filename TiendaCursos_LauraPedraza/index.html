@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div class="contenedor-principal">
+        <h1>Tienda de cursos</h1>
+
+        <div class="info-user">
+            <label>Ingresa tu nombre</label>
+            <input id="nombre" type="text" placeholder="Nombre">
+            <label>Ingresa tu correo Electronico</label>
+            <input id="correo" type="email" placeholder="Correo Electronico">
+        </div>
+
+      <div class="contenedor-cursos"> 
+
+        <div class="curso">
+            <h2>Cloud computing</h2>
+            <input class="curso-s" id="curso1" type="checkbox" value="Cloud computing">
+            <button onclick="mostrar(this)">Seleccionar</button>
+        </div>
+
+        <div class="curso">
+            <h2>Data base services</h2>
+            <input class="curso-s" id="curso2" type="checkbox" value="Data Base Services">
+            <button onclick="mostrar(this)">Seleccionar</button>
+        </div>
+
+        <div class="curso">
+            <h2>Design Web</h2>
+            <input class="curso-s" id="curso3" type="checkbox" value="Design Web">
+            <button onclick="mostrar(this)">Seleccionar</button>
+        </div>
+
+      </div>
+
+      <div class="registro" style="display:none;">
+        <p>QUEDASTE REGISTRADO</p>
+        <p id="nombre-curso">CURSO: </p>
+        <p id="nombre-r">NOMBRE: </p>
+        <p id="correo-r">CORREO: </p>
+
+      </div>
+</div>
+
+</body>
+</html>
